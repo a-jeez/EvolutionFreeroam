@@ -29,3 +29,4 @@
 //Player Modules
 #include "modules/player/variables.inc"
 #include "modules/player/auth.inc"
+#include "modules/player/data.inc"

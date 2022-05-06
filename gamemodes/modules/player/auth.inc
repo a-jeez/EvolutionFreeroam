@@ -48,3 +48,25 @@ function OnAccountPasswordHashed(playerid)
     Dialog_Show(playerid, PlayerLogin, DIALOG_STYLE_PASSWORD, ""SERVER_NAME" Freeroam: Login", string, "Login", "Forgot Password");
     return 1;
 }
+
+function OnAccountPasswordChecked(playerid, bool:success)
+{
+    if(!success)
+    {
+        static
+            string[256];
+            
+        format(string, sizeof(string), ""WHITE"Hi "CYAN"%s"WHITE", it seems you're already registered, please type in your password: "GREEN"(input below)", Player_GetName(playerid));
+        Dialog_Show(playerid, PlayerLogin, DIALOG_STYLE_PASSWORD, ""SERVER_NAME" Freeroam: Login", string, "Login", "Forgot Password");
+
+        Error(playerid, "Invalid password!, please try again.");
+        return 1;
+    }
+
+    static
+        query[256];
+
+    mysql_format(Database, query, sizeof(query), "SELECT * FROM `accounts` WHERE `name` = '%e' LIMIT 1", Player_GetName(playerid));
+    mysql_tquery(Database, query, "OnAccountLoaded", "i", playerid);
+    return 1;
+}
