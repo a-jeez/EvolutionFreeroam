@@ -1,0 +1,703 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[16:39:16] filterscripts = ""  (string)
+[16:39:16 06/05/2022] 
+[16:39:16 06/05/2022] Server Plugins
+[16:39:16 06/05/2022] --------------
+[16:39:16 06/05/2022]  Loading plugin: crashdetect.dll
+[16:39:16 06/05/2022]   Failed.
+[16:39:16 06/05/2022]  Loading plugin: mysql.dll
+[16:39:18 06/05/2022]  >> plugin.mysql: R41-4 successfully loaded.
+[16:39:18 06/05/2022]   Loaded.
+[16:39:18 06/05/2022]  Loading plugin: streamer.dll
+[16:39:18 06/05/2022]   Failed.
+[16:39:18 06/05/2022]  Loading plugin: sscanf.dll
+[16:39:18 06/05/2022]   Failed.
+[16:39:18 06/05/2022]  Loading plugin: samp_bcrypt.dll
+[16:39:18 06/05/2022]   Failed.
+[16:39:18 06/05/2022]  Loaded 1 plugins.
+
+[16:39:18 06/05/2022] 
+[16:39:18 06/05/2022] Filterscripts
+[16:39:18 06/05/2022] ---------------
+[16:39:18 06/05/2022]   Loaded 0 filterscripts.
+
+[16:39:19 06/05/2022]  
+[16:39:19 06/05/2022]  
+[16:39:19 06/05/2022] 
+         ==============================================================
+         |                                                            |
+         |                                                            |
+         |     YYYYYYY       YYYYYYY   SSSSSSSSSSSSSSS IIIIIIIIII     |
+         |     Y:::::Y       Y:::::Y SS:::::::::::::::SI::::::::I     |
+[16:39:19 06/05/2022]          |     Y:::::Y       Y:::::YS:::::SSSSSS::::::SI::::::::I     |
+         |     Y::::::Y     Y::::::YS:::::S     SSSSSSSII::::::II     |
+         |     YYY:::::Y   Y:::::YYYS:::::S              I::::I       |
+         |        Y:::::Y Y:::::Y   S:::::S              I::::I       |
+         |         Y:::::Y:::::Y     S::::SSSS           I::::I       |
+[16:39:19 06/05/2022]          |          Y:::::::::Y       SS::::::SSSSS      I::::I       |
+         |           Y:::::::Y          SSS::::::::SS    I::::I       |
+         |            Y:::::Y              SSSSSS::::S   I::::I       |
+         |            Y:::::Y                   S:::::S  I::::I       |
+         |            Y:::::Y                   S:::::S  I::::I       |
+[16:39:19 06/05/2022]          |            Y:::::Y       SSSSSSS     S:::::SII::::::II     |
+         |         YYYY:::::YYYY    S::::::SSSSSS:::::SI::::::::I     |
+         |         Y:::::::::::Y    S:::::::::::::::SS I::::::::I     |
+         |         YYYYYYYYYYYYY     SSSSSSSSSSSSSSS   IIIIIIIIII     |
+         |                                                            |
+[16:39:19 06/05/2022]          |                                                            |
+         |                      (c) 2021 MPL v1.1                     |
+         |            Alex "Y_Less" Cole and contributors.            |
+         |                                                            |
+         |                                                            |
+[16:39:19 06/05/2022]          ==============================================================
+
+[16:39:19 06/05/2022]  
+[16:39:19 06/05/2022]  
+[16:39:19 06/05/2022]  ========================================== 
+[16:39:19 06/05/2022]  |                                        | 
+[16:39:19 06/05/2022]  |  Missing YSI scriptfiles directories:  | 
+[16:39:19 06/05/2022]  |                                        | 
+[16:39:19 06/05/2022]  |      /scriptfiles/YSI/fixes/           | 
+[16:39:19 06/05/2022]  |      /scriptfiles/YSI/temp/            | 
+[16:39:19 06/05/2022]  |                                        | 
+[16:39:19 06/05/2022]  ========================================== 
+[16:39:19 06/05/2022]  |                                        | 
+[16:39:19 06/05/2022]  |   Generating code, this may take a     | 
+[16:39:19 06/05/2022]  |  little bit of time.  Note that this   | 
+[16:39:19 06/05/2022]  |  code generation works best with the   | 
+[16:39:19 06/05/2022]  |     JIT plugin, which you are not      | 
+[16:39:19 06/05/2022]  |     currently using.  Get it here:     | 
+[16:39:19 06/05/2022]  |                                        | 
+[16:39:19 06/05/2022]  |       https://git.io/jit-plugin        | 
+[16:39:19 06/05/2022]  |                                        | 
+[16:39:19 06/05/2022]  |             Please wait...             | 
+[16:39:19 06/05/2022]  |                                        | 
+[16:39:19 06/05/2022]  |                 Done!                  | 
+[16:39:19 06/05/2022]  |                                        | 
+[16:39:19 06/05/2022]  ========================================== 
+[16:39:19 06/05/2022]  |                                        | 
+[16:39:19 06/05/2022]  | Server:      0.3DL - Windows           | 
+[16:39:19 06/05/2022]  | Compiler:    3.10.10 - Windows         | 
+[16:39:19 06/05/2022]  | YSI:         5.05.0505                 | 
+[16:39:19 06/05/2022]  | Started:     1651829959                | 
+[16:39:19 06/05/2022]  | JIT:         <none>                    | 
+[16:39:19 06/05/2022]  | Crashdetect: <none>                    | 
+[16:39:19 06/05/2022]  |                                        | 
+[16:39:19 06/05/2022]  ========================================== 
+[16:39:19 06/05/2022]  |                                        | 
+[16:39:19 06/05/2022]  | Unable to check the latest YSI version | 
+[16:39:19 06/05/2022]  | - please watch the forums and github:  | 
+[16:39:19 06/05/2022]  |                                        | 
+[16:39:19 06/05/2022]  |          https://git.io/5.x            | 
+[16:39:19 06/05/2022]  |                                        | 
+[16:39:19 06/05/2022]  ========================================== 
+[16:39:19 06/05/2022]  
+[16:39:19 06/05/2022]   Filterscript '../scriptfiles/callbackfix.amx' loaded.
+[16:39:19 06/05/2022]  
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[16:39:46] filterscripts = ""  (string)
+[16:39:46 06/05/2022] 
+[16:39:46 06/05/2022] Server Plugins
+[16:39:46 06/05/2022] --------------
+[16:39:46 06/05/2022]  Loading plugin: crashdetect.dll
+[16:39:46 06/05/2022]   Failed.
+[16:39:46 06/05/2022]  Loading plugin: mysql.dll
+[16:39:46 06/05/2022]  >> plugin.mysql: R41-4 successfully loaded.
+[16:39:46 06/05/2022]   Loaded.
+[16:39:46 06/05/2022]  Loading plugin: streamer.dll
+[16:39:46 06/05/2022] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[16:39:46 06/05/2022]   Loaded.
+[16:39:46 06/05/2022]  Loading plugin: sscanf.dll
+[16:39:46 06/05/2022] 
+
+[16:39:46 06/05/2022]  ===============================
+
+[16:39:46 06/05/2022]       sscanf plugin loaded.     
+
+[16:39:46 06/05/2022]         Version:  2.10.2        
+
+[16:39:46 06/05/2022]    (c) 2020 Alex "Y_Less" Cole  
+
+[16:39:46 06/05/2022]  ===============================
+
+[16:39:46 06/05/2022]   Loaded.
+[16:39:46 06/05/2022]  Loading plugin: samp_bcrypt.dll
+[16:39:46 06/05/2022]   Failed.
+[16:39:46 06/05/2022]  Loaded 3 plugins.
+
+[16:39:46 06/05/2022] 
+[16:39:46 06/05/2022] Filterscripts
+[16:39:46 06/05/2022] ---------------
+[16:39:46 06/05/2022]   Loaded 0 filterscripts.
+
+[16:39:46 06/05/2022]  
+[16:39:46 06/05/2022]  
+[16:39:46 06/05/2022] 
+         ==============================================================
+         |                                                            |
+         |                                                            |
+         |     YYYYYYY       YYYYYYY   SSSSSSSSSSSSSSS IIIIIIIIII     |
+         |     Y:::::Y       Y:::::Y SS:::::::::::::::SI::::::::I     |
+[16:39:46 06/05/2022]          |     Y:::::Y       Y:::::YS:::::SSSSSS::::::SI::::::::I     |
+         |     Y::::::Y     Y::::::YS:::::S     SSSSSSSII::::::II     |
+         |     YYY:::::Y   Y:::::YYYS:::::S              I::::I       |
+         |        Y:::::Y Y:::::Y   S:::::S              I::::I       |
+         |         Y:::::Y:::::Y     S::::SSSS           I::::I       |
+[16:39:46 06/05/2022]          |          Y:::::::::Y       SS::::::SSSSS      I::::I       |
+         |           Y:::::::Y          SSS::::::::SS    I::::I       |
+         |            Y:::::Y              SSSSSS::::S   I::::I       |
+         |            Y:::::Y                   S:::::S  I::::I       |
+         |            Y:::::Y                   S:::::S  I::::I       |
+[16:39:46 06/05/2022]          |            Y:::::Y       SSSSSSS     S:::::SII::::::II     |
+         |         YYYY:::::YYYY    S::::::SSSSSS:::::SI::::::::I     |
+         |         Y:::::::::::Y    S:::::::::::::::SS I::::::::I     |
+         |         YYYYYYYYYYYYY     SSSSSSSSSSSSSSS   IIIIIIIIII     |
+         |                                                            |
+[16:39:46 06/05/2022]          |                                                            |
+         |                      (c) 2021 MPL v1.1                     |
+         |            Alex "Y_Less" Cole and contributors.            |
+         |                                                            |
+         |                                                            |
+[16:39:46 06/05/2022]          ==============================================================
+
+[16:39:46 06/05/2022]  
+[16:39:46 06/05/2022]  
+[16:39:46 06/05/2022]  ========================================== 
+[16:39:46 06/05/2022]  |                                        | 
+[16:39:46 06/05/2022]  |  Missing YSI scriptfiles directories:  | 
+[16:39:46 06/05/2022]  |                                        | 
+[16:39:46 06/05/2022]  |      /scriptfiles/YSI/fixes/           | 
+[16:39:46 06/05/2022]  |      /scriptfiles/YSI/temp/            | 
+[16:39:46 06/05/2022]  |                                        | 
+[16:39:46 06/05/2022]  ========================================== 
+[16:39:46 06/05/2022]  |                                        | 
+[16:39:46 06/05/2022]  |   Generating code, this may take a     | 
+[16:39:46 06/05/2022]  |  little bit of time.  Note that this   | 
+[16:39:46 06/05/2022]  |  code generation works best with the   | 
+[16:39:46 06/05/2022]  |     JIT plugin, which you are not      | 
+[16:39:46 06/05/2022]  |     currently using.  Get it here:     | 
+[16:39:46 06/05/2022]  |                                        | 
+[16:39:46 06/05/2022]  |       https://git.io/jit-plugin        | 
+[16:39:46 06/05/2022]  |                                        | 
+[16:39:46 06/05/2022]  |             Please wait...             | 
+[16:39:46 06/05/2022]  |                                        | 
+[16:39:46 06/05/2022]  |                 Done!                  | 
+[16:39:46 06/05/2022]  |                                        | 
+[16:39:46 06/05/2022]  ========================================== 
+[16:39:46 06/05/2022]  |                                        | 
+[16:39:46 06/05/2022]  | Server:      0.3DL - Windows           | 
+[16:39:46 06/05/2022]  | Compiler:    3.10.10 - Windows         | 
+[16:39:46 06/05/2022]  | YSI:         5.05.0505                 | 
+[16:39:46 06/05/2022]  | Started:     1651829986                | 
+[16:39:46 06/05/2022]  | JIT:         <none>                    | 
+[16:39:46 06/05/2022]  | Crashdetect: <none>                    | 
+[16:39:46 06/05/2022]  |                                        | 
+[16:39:46 06/05/2022]  ========================================== 
+[16:39:46 06/05/2022]  |                                        | 
+[16:39:46 06/05/2022]  | Unable to check the latest YSI version | 
+[16:39:46 06/05/2022]  | - please watch the forums and github:  | 
+[16:39:46 06/05/2022]  |                                        | 
+[16:39:46 06/05/2022]  |          https://git.io/5.x            | 
+[16:39:46 06/05/2022]  |                                        | 
+[16:39:46 06/05/2022]  ========================================== 
+[16:39:46 06/05/2022]  
+[16:39:46 06/05/2022]   Filterscript '../scriptfiles/callbackfix.amx' loaded.
+[16:39:46 06/05/2022]  
+[16:39:55 06/05/2022] [MySQL]: Failed to establish connection with MySQL server.
+[16:39:55 06/05/2022] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[16:43:24] filterscripts = ""  (string)
+[16:43:24 06/05/2022] 
+[16:43:24 06/05/2022] Server Plugins
+[16:43:24 06/05/2022] --------------
+[16:43:24 06/05/2022]  Loading plugin: crashdetect.dll
+[16:43:24 06/05/2022]   Failed.
+[16:43:24 06/05/2022]  Loading plugin: mysql.dll
+[16:43:24 06/05/2022]  >> plugin.mysql: R41-4 successfully loaded.
+[16:43:24 06/05/2022]   Loaded.
+[16:43:24 06/05/2022]  Loading plugin: streamer.dll
+[16:43:24 06/05/2022] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[16:43:24 06/05/2022]   Loaded.
+[16:43:24 06/05/2022]  Loading plugin: sscanf.dll
+[16:43:24 06/05/2022] 
+
+[16:43:24 06/05/2022]  ===============================
+
+[16:43:24 06/05/2022]       sscanf plugin loaded.     
+
+[16:43:24 06/05/2022]         Version:  2.10.2        
+
+[16:43:24 06/05/2022]    (c) 2020 Alex "Y_Less" Cole  
+
+[16:43:24 06/05/2022]  ===============================
+
+[16:43:24 06/05/2022]   Loaded.
+[16:43:24 06/05/2022]  Loading plugin: samp_bcrypt.dll
+[16:43:24 06/05/2022]   Failed.
+[16:43:24 06/05/2022]  Loaded 3 plugins.
+
+[16:43:24 06/05/2022] 
+[16:43:24 06/05/2022] Filterscripts
+[16:43:24 06/05/2022] ---------------
+[16:43:24 06/05/2022]   Loaded 0 filterscripts.
+
+[16:43:24 06/05/2022]  
+[16:43:24 06/05/2022]  
+[16:43:24 06/05/2022] 
+         ==============================================================
+         |                                                            |
+         |                                                            |
+         |     YYYYYYY       YYYYYYY   SSSSSSSSSSSSSSS IIIIIIIIII     |
+         |     Y:::::Y       Y:::::Y SS:::::::::::::::SI::::::::I     |
+[16:43:24 06/05/2022]          |     Y:::::Y       Y:::::YS:::::SSSSSS::::::SI::::::::I     |
+         |     Y::::::Y     Y::::::YS:::::S     SSSSSSSII::::::II     |
+         |     YYY:::::Y   Y:::::YYYS:::::S              I::::I       |
+         |        Y:::::Y Y:::::Y   S:::::S              I::::I       |
+         |         Y:::::Y:::::Y     S::::SSSS           I::::I       |
+[16:43:24 06/05/2022]          |          Y:::::::::Y       SS::::::SSSSS      I::::I       |
+         |           Y:::::::Y          SSS::::::::SS    I::::I       |
+         |            Y:::::Y              SSSSSS::::S   I::::I       |
+         |            Y:::::Y                   S:::::S  I::::I       |
+         |            Y:::::Y                   S:::::S  I::::I       |
+[16:43:24 06/05/2022]          |            Y:::::Y       SSSSSSS     S:::::SII::::::II     |
+         |         YYYY:::::YYYY    S::::::SSSSSS:::::SI::::::::I     |
+         |         Y:::::::::::Y    S:::::::::::::::SS I::::::::I     |
+         |         YYYYYYYYYYYYY     SSSSSSSSSSSSSSS   IIIIIIIIII     |
+         |                                                            |
+[16:43:24 06/05/2022]          |                                                            |
+         |                      (c) 2021 MPL v1.1                     |
+         |            Alex "Y_Less" Cole and contributors.            |
+         |                                                            |
+         |                                                            |
+[16:43:24 06/05/2022]          ==============================================================
+
+[16:43:24 06/05/2022]  
+[16:43:24 06/05/2022]  
+[16:43:24 06/05/2022]  ========================================== 
+[16:43:24 06/05/2022]  |                                        | 
+[16:43:24 06/05/2022]  |  Missing YSI scriptfiles directories:  | 
+[16:43:24 06/05/2022]  |                                        | 
+[16:43:24 06/05/2022]  |      /scriptfiles/YSI/fixes/           | 
+[16:43:24 06/05/2022]  |      /scriptfiles/YSI/temp/            | 
+[16:43:24 06/05/2022]  |                                        | 
+[16:43:24 06/05/2022]  ========================================== 
+[16:43:24 06/05/2022]  |                                        | 
+[16:43:24 06/05/2022]  |   Generating code, this may take a     | 
+[16:43:24 06/05/2022]  |  little bit of time.  Note that this   | 
+[16:43:24 06/05/2022]  |  code generation works best with the   | 
+[16:43:24 06/05/2022]  |     JIT plugin, which you are not      | 
+[16:43:24 06/05/2022]  |     currently using.  Get it here:     | 
+[16:43:24 06/05/2022]  |                                        | 
+[16:43:24 06/05/2022]  |       https://git.io/jit-plugin        | 
+[16:43:24 06/05/2022]  |                                        | 
+[16:43:24 06/05/2022]  |             Please wait...             | 
+[16:43:24 06/05/2022]  |                                        | 
+[16:43:24 06/05/2022]  |                 Done!                  | 
+[16:43:24 06/05/2022]  |                                        | 
+[16:43:24 06/05/2022]  ========================================== 
+[16:43:24 06/05/2022]  |                                        | 
+[16:43:24 06/05/2022]  | Server:      0.3DL - Windows           | 
+[16:43:24 06/05/2022]  | Compiler:    3.10.10 - Windows         | 
+[16:43:24 06/05/2022]  | YSI:         5.05.0505                 | 
+[16:43:24 06/05/2022]  | Started:     1651830204                | 
+[16:43:24 06/05/2022]  | JIT:         <none>                    | 
+[16:43:24 06/05/2022]  | Crashdetect: <none>                    | 
+[16:43:24 06/05/2022]  |                                        | 
+[16:43:24 06/05/2022]  ========================================== 
+[16:43:24 06/05/2022]  |                                        | 
+[16:43:24 06/05/2022]  | Unable to check the latest YSI version | 
+[16:43:24 06/05/2022]  | - please watch the forums and github:  | 
+[16:43:24 06/05/2022]  |                                        | 
+[16:43:24 06/05/2022]  |          https://git.io/5.x            | 
+[16:43:24 06/05/2022]  |                                        | 
+[16:43:24 06/05/2022]  ========================================== 
+[16:43:24 06/05/2022]  
+[16:43:24 06/05/2022]   Filterscript '../scriptfiles/callbackfix.amx' loaded.
+[16:43:24 06/05/2022]  
+[16:43:24 06/05/2022] [MySQL]: Success establish connection with MySQL server.
+[16:43:25 06/05/2022] Number of vehicle models: 0
+[16:44:48 06/05/2022] [connection] incoming connection: 127.0.0.1:57052 id: 0
+[16:44:49 06/05/2022] [join] Phoenixx has joined the server (0:127.0.0.1)
+[16:44:59 06/05/2022] [part] Phoenixx has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[16:46:21] filterscripts = ""  (string)
+[16:46:21 06/05/2022] 
+[16:46:21 06/05/2022] Server Plugins
+[16:46:21 06/05/2022] --------------
+[16:46:21 06/05/2022]  Loading plugin: crashdetect.dll
+[16:46:21 06/05/2022]   Failed.
+[16:46:21 06/05/2022]  Loading plugin: mysql.dll
+[16:46:21 06/05/2022]  >> plugin.mysql: R41-4 successfully loaded.
+[16:46:21 06/05/2022]   Loaded.
+[16:46:21 06/05/2022]  Loading plugin: streamer.dll
+[16:46:21 06/05/2022] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[16:46:21 06/05/2022]   Loaded.
+[16:46:21 06/05/2022]  Loading plugin: sscanf.dll
+[16:46:21 06/05/2022] 
+
+[16:46:21 06/05/2022]  ===============================
+
+[16:46:21 06/05/2022]       sscanf plugin loaded.     
+
+[16:46:21 06/05/2022]         Version:  2.10.2        
+
+[16:46:21 06/05/2022]    (c) 2020 Alex "Y_Less" Cole  
+
+[16:46:21 06/05/2022]  ===============================
+
+[16:46:21 06/05/2022]   Loaded.
+[16:46:21 06/05/2022]  Loading plugin: samp_bcrypt.dll
+[16:46:21 06/05/2022]   Failed.
+[16:46:21 06/05/2022]  Loaded 3 plugins.
+
+[16:46:22 06/05/2022] 
+[16:46:22 06/05/2022] Filterscripts
+[16:46:22 06/05/2022] ---------------
+[16:46:22 06/05/2022]   Loaded 0 filterscripts.
+
+[16:46:22 06/05/2022]  
+[16:46:22 06/05/2022]  
+[16:46:22 06/05/2022] 
+         ==============================================================
+         |                                                            |
+         |                                                            |
+         |     YYYYYYY       YYYYYYY   SSSSSSSSSSSSSSS IIIIIIIIII     |
+         |     Y:::::Y       Y:::::Y SS:::::::::::::::SI::::::::I     |
+[16:46:22 06/05/2022]          |     Y:::::Y       Y:::::YS:::::SSSSSS::::::SI::::::::I     |
+         |     Y::::::Y     Y::::::YS:::::S     SSSSSSSII::::::II     |
+         |     YYY:::::Y   Y:::::YYYS:::::S              I::::I       |
+         |        Y:::::Y Y:::::Y   S:::::S              I::::I       |
+         |         Y:::::Y:::::Y     S::::SSSS           I::::I       |
+[16:46:22 06/05/2022]          |          Y:::::::::Y       SS::::::SSSSS      I::::I       |
+         |           Y:::::::Y          SSS::::::::SS    I::::I       |
+         |            Y:::::Y              SSSSSS::::S   I::::I       |
+         |            Y:::::Y                   S:::::S  I::::I       |
+         |            Y:::::Y                   S:::::S  I::::I       |
+[16:46:22 06/05/2022]          |            Y:::::Y       SSSSSSS     S:::::SII::::::II     |
+         |         YYYY:::::YYYY    S::::::SSSSSS:::::SI::::::::I     |
+         |         Y:::::::::::Y    S:::::::::::::::SS I::::::::I     |
+         |         YYYYYYYYYYYYY     SSSSSSSSSSSSSSS   IIIIIIIIII     |
+         |                                                            |
+[16:46:22 06/05/2022]          |                                                            |
+         |                      (c) 2021 MPL v1.1                     |
+         |            Alex "Y_Less" Cole and contributors.            |
+         |                                                            |
+         |                                                            |
+[16:46:22 06/05/2022]          ==============================================================
+
+[16:46:22 06/05/2022]  
+[16:46:22 06/05/2022]  
+[16:46:22 06/05/2022]  ========================================== 
+[16:46:22 06/05/2022]  |                                        | 
+[16:46:22 06/05/2022]  |  Missing YSI scriptfiles directories:  | 
+[16:46:22 06/05/2022]  |                                        | 
+[16:46:22 06/05/2022]  |      /scriptfiles/YSI/fixes/           | 
+[16:46:22 06/05/2022]  |      /scriptfiles/YSI/temp/            | 
+[16:46:22 06/05/2022]  |                                        | 
+[16:46:22 06/05/2022]  ========================================== 
+[16:46:22 06/05/2022]  |                                        | 
+[16:46:22 06/05/2022]  |   Generating code, this may take a     | 
+[16:46:22 06/05/2022]  |  little bit of time.  Note that this   | 
+[16:46:22 06/05/2022]  |  code generation works best with the   | 
+[16:46:22 06/05/2022]  |     JIT plugin, which you are not      | 
+[16:46:22 06/05/2022]  |     currently using.  Get it here:     | 
+[16:46:22 06/05/2022]  |                                        | 
+[16:46:22 06/05/2022]  |       https://git.io/jit-plugin        | 
+[16:46:22 06/05/2022]  |                                        | 
+[16:46:22 06/05/2022]  |             Please wait...             | 
+[16:46:22 06/05/2022]  |                                        | 
+[16:46:22 06/05/2022]  |                 Done!                  | 
+[16:46:22 06/05/2022]  |                                        | 
+[16:46:22 06/05/2022]  ========================================== 
+[16:46:22 06/05/2022]  |                                        | 
+[16:46:22 06/05/2022]  | Server:      0.3DL - Windows           | 
+[16:46:22 06/05/2022]  | Compiler:    3.10.10 - Windows         | 
+[16:46:22 06/05/2022]  | YSI:         5.05.0505                 | 
+[16:46:22 06/05/2022]  | Started:     1651830382                | 
+[16:46:22 06/05/2022]  | JIT:         <none>                    | 
+[16:46:22 06/05/2022]  | Crashdetect: <none>                    | 
+[16:46:22 06/05/2022]  |                                        | 
+[16:46:22 06/05/2022]  ========================================== 
+[16:46:22 06/05/2022]  |                                        | 
+[16:46:22 06/05/2022]  | Unable to check the latest YSI version | 
+[16:46:22 06/05/2022]  | - please watch the forums and github:  | 
+[16:46:22 06/05/2022]  |                                        | 
+[16:46:22 06/05/2022]  |          https://git.io/5.x            | 
+[16:46:22 06/05/2022]  |                                        | 
+[16:46:22 06/05/2022]  ========================================== 
+[16:46:22 06/05/2022]  
+[16:46:22 06/05/2022]   Filterscript '../scriptfiles/callbackfix.amx' loaded.
+[16:46:22 06/05/2022]  
+[16:46:22 06/05/2022] [MySQL]: Success establish connection with MySQL server.
+[16:46:22 06/05/2022] Number of vehicle models: 0
+[16:46:45 06/05/2022] [connection] incoming connection: 127.0.0.1:54615 id: 0
+[16:46:46 06/05/2022] [join] Phoenixx has joined the server (0:127.0.0.1)
+[16:46:56 06/05/2022] [part] Phoenixx has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:00:52] filterscripts = ""  (string)
+[17:00:52 06/05/2022] 
+[17:00:52 06/05/2022] Server Plugins
+[17:00:52 06/05/2022] --------------
+[17:00:52 06/05/2022]  Loading plugin: crashdetect.dll
+[17:00:52 06/05/2022]   Failed.
+[17:00:52 06/05/2022]  Loading plugin: mysql.dll
+[17:00:52 06/05/2022]  >> plugin.mysql: R41-4 successfully loaded.
+[17:00:52 06/05/2022]   Loaded.
+[17:00:52 06/05/2022]  Loading plugin: streamer.dll
+[17:00:52 06/05/2022] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[17:00:52 06/05/2022]   Loaded.
+[17:00:52 06/05/2022]  Loading plugin: sscanf.dll
+[17:00:52 06/05/2022] 
+
+[17:00:52 06/05/2022]  ===============================
+
+[17:00:52 06/05/2022]       sscanf plugin loaded.     
+
+[17:00:52 06/05/2022]         Version:  2.10.2        
+
+[17:00:52 06/05/2022]    (c) 2020 Alex "Y_Less" Cole  
+
+[17:00:52 06/05/2022]  ===============================
+
+[17:00:52 06/05/2022]   Loaded.
+[17:00:52 06/05/2022]  Loading plugin: samp_bcrypt.dll
+[17:00:52 06/05/2022]   Failed.
+[17:00:52 06/05/2022]  Loaded 3 plugins.
+
+[17:00:52 06/05/2022] 
+[17:00:52 06/05/2022] Filterscripts
+[17:00:52 06/05/2022] ---------------
+[17:00:52 06/05/2022]   Loaded 0 filterscripts.
+
+[17:00:52 06/05/2022] Script[gamemodes/Freeroam.amx]: Run time error 19: "File or function is not found"
+[17:00:52 06/05/2022] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:01:06] filterscripts = ""  (string)
+[17:01:06 06/05/2022] 
+[17:01:06 06/05/2022] Server Plugins
+[17:01:06 06/05/2022] --------------
+[17:01:06 06/05/2022]  Loading plugin: crashdetect.dll
+[17:01:06 06/05/2022]   Failed.
+[17:01:06 06/05/2022]  Loading plugin: mysql.dll
+[17:01:06 06/05/2022]  >> plugin.mysql: R41-4 successfully loaded.
+[17:01:06 06/05/2022]   Loaded.
+[17:01:06 06/05/2022]  Loading plugin: streamer.dll
+[17:01:06 06/05/2022] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[17:01:06 06/05/2022]   Loaded.
+[17:01:06 06/05/2022]  Loading plugin: sscanf.dll
+[17:01:06 06/05/2022] 
+
+[17:01:06 06/05/2022]  ===============================
+
+[17:01:06 06/05/2022]       sscanf plugin loaded.     
+
+[17:01:06 06/05/2022]         Version:  2.10.2        
+
+[17:01:06 06/05/2022]    (c) 2020 Alex "Y_Less" Cole  
+
+[17:01:06 06/05/2022]  ===============================
+
+[17:01:06 06/05/2022]   Loaded.
+[17:01:06 06/05/2022]  Loading plugin: samp_bcrypt.dll
+[17:01:06 06/05/2022]   Failed.
+[17:01:06 06/05/2022]  Loaded 3 plugins.
+
+[17:01:06 06/05/2022] 
+[17:01:06 06/05/2022] Filterscripts
+[17:01:06 06/05/2022] ---------------
+[17:01:06 06/05/2022]   Loaded 0 filterscripts.
+
+[17:01:06 06/05/2022] Script[gamemodes/Freeroam.amx]: Run time error 19: "File or function is not found"
+[17:01:06 06/05/2022] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.DL-R1, (C)2005-2018 SA-MP Team
+
+[17:01:37] filterscripts = ""  (string)
+[17:01:37 06/05/2022] 
+[17:01:37 06/05/2022] Server Plugins
+[17:01:37 06/05/2022] --------------
+[17:01:37 06/05/2022]  Loading plugin: crashdetect.dll
+[17:01:37 06/05/2022]   Failed.
+[17:01:37 06/05/2022]  Loading plugin: mysql.dll
+[17:01:37 06/05/2022]  >> plugin.mysql: R41-4 successfully loaded.
+[17:01:37 06/05/2022]   Loaded.
+[17:01:37 06/05/2022]  Loading plugin: streamer.dll
+[17:01:37 06/05/2022] 
+
+*** Streamer Plugin v2.9.5 by Incognito loaded ***
+
+[17:01:37 06/05/2022]   Loaded.
+[17:01:37 06/05/2022]  Loading plugin: sscanf.dll
+[17:01:37 06/05/2022] 
+
+[17:01:37 06/05/2022]  ===============================
+
+[17:01:37 06/05/2022]       sscanf plugin loaded.     
+
+[17:01:37 06/05/2022]         Version:  2.10.2        
+
+[17:01:37 06/05/2022]    (c) 2020 Alex "Y_Less" Cole  
+
+[17:01:37 06/05/2022]  ===============================
+
+[17:01:37 06/05/2022]   Loaded.
+[17:01:37 06/05/2022]  Loading plugin: samp_bcrypt.dll
+[17:01:37 06/05/2022] [SampBcrypt] [info]: Version: 0.3.4
+[17:01:37 06/05/2022]   Loaded.
+[17:01:37 06/05/2022]  Loaded 4 plugins.
+
+[17:01:37 06/05/2022] 
+[17:01:37 06/05/2022] Filterscripts
+[17:01:37 06/05/2022] ---------------
+[17:01:37 06/05/2022]   Loaded 0 filterscripts.
+
+[17:01:37 06/05/2022]  
+[17:01:37 06/05/2022]  
+[17:01:37 06/05/2022] 
+         ==============================================================
+         |                                                            |
+         |                                                            |
+         |     YYYYYYY       YYYYYYY   SSSSSSSSSSSSSSS IIIIIIIIII     |
+         |     Y:::::Y       Y:::::Y SS:::::::::::::::SI::::::::I     |
+[17:01:37 06/05/2022]          |     Y:::::Y       Y:::::YS:::::SSSSSS::::::SI::::::::I     |
+         |     Y::::::Y     Y::::::YS:::::S     SSSSSSSII::::::II     |
+         |     YYY:::::Y   Y:::::YYYS:::::S              I::::I       |
+         |        Y:::::Y Y:::::Y   S:::::S              I::::I       |
+         |         Y:::::Y:::::Y     S::::SSSS           I::::I       |
+[17:01:37 06/05/2022]          |          Y:::::::::Y       SS::::::SSSSS      I::::I       |
+         |           Y:::::::Y          SSS::::::::SS    I::::I       |
+         |            Y:::::Y              SSSSSS::::S   I::::I       |
+         |            Y:::::Y                   S:::::S  I::::I       |
+         |            Y:::::Y                   S:::::S  I::::I       |
+[17:01:37 06/05/2022]          |            Y:::::Y       SSSSSSS     S:::::SII::::::II     |
+         |         YYYY:::::YYYY    S::::::SSSSSS:::::SI::::::::I     |
+         |         Y:::::::::::Y    S:::::::::::::::SS I::::::::I     |
+         |         YYYYYYYYYYYYY     SSSSSSSSSSSSSSS   IIIIIIIIII     |
+         |                                                            |
+[17:01:37 06/05/2022]          |                                                            |
+         |                      (c) 2021 MPL v1.1                     |
+         |            Alex "Y_Less" Cole and contributors.            |
+         |                                                            |
+         |                                                            |
+[17:01:37 06/05/2022]          ==============================================================
+
+[17:01:37 06/05/2022]  
+[17:01:37 06/05/2022]  
+[17:01:37 06/05/2022]  ========================================== 
+[17:01:37 06/05/2022]  |                                        | 
+[17:01:37 06/05/2022]  |  Missing YSI scriptfiles directories:  | 
+[17:01:37 06/05/2022]  |                                        | 
+[17:01:37 06/05/2022]  |      /scriptfiles/YSI/fixes/           | 
+[17:01:37 06/05/2022]  |      /scriptfiles/YSI/temp/            | 
+[17:01:37 06/05/2022]  |                                        | 
+[17:01:37 06/05/2022]  ========================================== 
+[17:01:37 06/05/2022]  |                                        | 
+[17:01:37 06/05/2022]  |   Generating code, this may take a     | 
+[17:01:37 06/05/2022]  |  little bit of time.  Note that this   | 
+[17:01:37 06/05/2022]  |  code generation works best with the   | 
+[17:01:37 06/05/2022]  |     JIT plugin, which you are not      | 
+[17:01:37 06/05/2022]  |     currently using.  Get it here:     | 
+[17:01:37 06/05/2022]  |                                        | 
+[17:01:37 06/05/2022]  |       https://git.io/jit-plugin        | 
+[17:01:37 06/05/2022]  |                                        | 
+[17:01:37 06/05/2022]  |             Please wait...             | 
+[17:01:37 06/05/2022]  |                                        | 
+[17:01:37 06/05/2022]  |                 Done!                  | 
+[17:01:37 06/05/2022]  |                                        | 
+[17:01:37 06/05/2022]  ========================================== 
+[17:01:37 06/05/2022]  |                                        | 
+[17:01:37 06/05/2022]  | Server:      0.3DL - Windows           | 
+[17:01:37 06/05/2022]  | Compiler:    3.10.10 - Windows         | 
+[17:01:37 06/05/2022]  | YSI:         5.05.0505                 | 
+[17:01:37 06/05/2022]  | Started:     1651831297                | 
+[17:01:37 06/05/2022]  | JIT:         <none>                    | 
+[17:01:37 06/05/2022]  | Crashdetect: <none>                    | 
+[17:01:37 06/05/2022]  |                                        | 
+[17:01:37 06/05/2022]  ========================================== 
+[17:01:37 06/05/2022]  |                                        | 
+[17:01:37 06/05/2022]  | Unable to check the latest YSI version | 
+[17:01:37 06/05/2022]  | - please watch the forums and github:  | 
+[17:01:37 06/05/2022]  |                                        | 
+[17:01:37 06/05/2022]  |          https://git.io/5.x            | 
+[17:01:37 06/05/2022]  |                                        | 
+[17:01:37 06/05/2022]  ========================================== 
+[17:01:37 06/05/2022]  
+[17:01:37 06/05/2022]   Filterscript '../scriptfiles/callbackfix.amx' loaded.
+[17:01:37 06/05/2022]  
+[17:01:37 06/05/2022] [MySQL]: Success establish connection with MySQL server.
+[17:01:37 06/05/2022] Number of vehicle models: 0
+[17:02:09 06/05/2022] [connection] incoming connection: 127.0.0.1:63103 id: 0
+[17:02:11 06/05/2022] [join] Phoenixx has joined the server (0:127.0.0.1)
+[17:02:18 06/05/2022] [part] Phoenixx_tmp788 has left the server (0:1)
+[17:02:33 06/05/2022] [connection] incoming connection: 127.0.0.1:63926 id: 0
+[17:02:33 06/05/2022] [join] Phoenixx has joined the server (0:127.0.0.1)
+[17:02:59 06/05/2022] [part] Phoenixx has left the server (0:1)

@@ -1,0 +1,1 @@
+new Login_Timer[MAX_PLAYERS] = 0;
