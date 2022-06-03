@@ -1,1 +1,7 @@
 new Login_Timer[MAX_PLAYERS] = 0;
+
+/* login music */
+new LoginMusicID[8] =
+{
+	1062, 1068, 1076, 1097, 1183, 1185, 1187
+};
