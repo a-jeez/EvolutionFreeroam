@@ -54,7 +54,7 @@ stock Dialog_Close(playerid)
 	s_DialogName[playerid]{0} = 0;
 	s_DialogOpened[playerid] = false;
 
-	return ShowPlayerDialog(playerid, -1, DIALOG_STYLE_MSGBOX, "", "", "", "");
+	return 1;
 }
 
 stock Dialog_Open(playerid, const func[], style, caption[], info[], button1[], button2[], {Float,_}:...)
