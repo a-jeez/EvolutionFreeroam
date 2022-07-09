@@ -6,4 +6,4 @@ Thanks to:
           - Pheonixx (Main Dev)
           - Andy Prasetya (Second Dev)
           - Kristoforus Ananta P.M (Beban Dev)
-          - Jon (Nothing happened to Dev 🦫)
+          - Jon (Map Design 🦫)
