@@ -5,3 +5,5 @@ new LoginMusicID[8] =
 {
 	1062, 1068, 1076, 1097, 1183, 1185, 1187
 };
+
+new bool:IsPLayerLoggedIn[MAX_PLAYERS];

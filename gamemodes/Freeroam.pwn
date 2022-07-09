@@ -9,6 +9,8 @@
 #define MAX_PLAYERS 50
 #include <a_mysql>
 #include <easyDialog>
+#include <zcmd>
+#include <sscanf2>
 
 // Password Hashing
 #include <samp_bcrypt>
@@ -21,12 +23,18 @@
 //Server Modules
 #include "modules/server/macros.inc"
 #include "modules/server/variables.inc"
-#include "modules/server/callbacks.inc"
 #include "modules/server/connection.inc"
 #include "modules/server/functions.inc"
+#include "modules/server/callbacks.inc"
 #include "modules/server/dialogs.inc"
 
 //Player Modules
 #include "modules/player/variables.inc"
 #include "modules/player/auth.inc"
 #include "modules/player/data.inc"
+#include "modules/player/commands.inc"
+
+//Vehicle Modules
+#include "modules/vehicle/variables.inc"
+#include "modules/vehicle/functions.inc"
+#include "modules/vehicle/commands.inc"

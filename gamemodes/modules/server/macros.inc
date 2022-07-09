@@ -5,7 +5,7 @@
 //MySQL Macros
 #define MYSQL_HOSTNAME "127.0.0.1"
 #define MYSQL_USERNAME "root"
-#define MYSQL_PASSWORD "9KrtrGf.=0TIjQRPcShWE+x9"
+#define MYSQL_PASSWORD ""
 #define MYSQL_DATABASE "evofr"
 
 //Utility
@@ -16,4 +16,6 @@
 #define DEFAULT_POS_A   270.1425
 
 //Messages
-#define Error(%1,%2) SendClientMessage(%1, -1, "{A9A9A9}ERROR: "%2)
+#define Error(%1,%2) SendClientMessage(%1, -1, ORANGERED1"[ERROR]:"WHITE" "%2)
+#define Server(%1,%2) SendClientMessage(%1, -1, ORANGERED1"[SERVER]:"WHITE" "%2)
+#define Usage(%1,%2) SendClientMessage(%1, -1, ORANGERED1"[USAGE]:"WHITE" "%2)
