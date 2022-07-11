@@ -7,3 +7,14 @@ new LoginMusicID[8] =
 };
 
 new bool:IsPLayerLoggedIn[MAX_PLAYERS];
+
+new
+    Iterator:pVehicle[MAX_PLAYERS]<MAX_VEHICLES>;
+
+enum vehicleData
+{
+    P_ID,
+    P_MODELID,
+    P_ISDEAD
+};
+new SpawnedPlayerVehicle[MAX_PLAYERS][vehicleData];

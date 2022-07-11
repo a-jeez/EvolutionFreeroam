@@ -1,20 +1,52 @@
-stock FindVehicleModelIDFromName(params[])
+function SetPlayerVehicleDeathState(playerid, vehicleid, dstate)
 {
-	new modelid = 0;
-	while(modelid <= 212)
-	{
-		if(strcmp(VehicleModelNames[modelid], params[0], false) == 0)
-			return 400 + modelid;
-
-		modelid++;
-	}
-	return -1;
+    if(Iter_Contains(pVehicle[playerid], vehicleid) &&
+    	SpawnedPlayerVehicle[playerid][P_ID] == vehicleid)
+    {
+        if(SpawnedPlayerVehicle[playerid][P_MODELID] != -1)
+        {
+            SpawnedPlayerVehicle[playerid][P_ISDEAD] = dstate;
+        }
+    }
 }
 
-stock GetVehicleNameFromModelID(modelid)
+function GetPlayerVehicleDeathState(playerid, vehicleid)
+{
+    if(Iter_Contains(pVehicle[playerid], vehicleid) &&
+    	SpawnedPlayerVehicle[playerid][P_ID] == vehicleid)
+    {
+        if(SpawnedPlayerVehicle[playerid][P_MODELID] != -1)
+	        return SpawnedPlayerVehicle[playerid][P_ISDEAD];
+    }
+    return false;
+}
+
+function GetPlayerVehicleData(playerid, vehicleData:data)
+{
+	return SpawnedPlayerVehicle[playerid][data];
+}
+
+stock2 GetVehicleNameFromModelID(modelid)
 {
 	if(modelid >= 400 && modelid <= 612) {
 		return VehicleModelNames[modelid - 400];
 	}
 	return VehicleModelNames[212];
+}
+
+function RemovePlayerVehicle(playerid, vehicleid)
+{
+    if(Iter_Contains(pVehicle[playerid], vehicleid) &&
+    	SpawnedPlayerVehicle[playerid][P_ID] == vehicleid)
+    {
+        if(SpawnedPlayerVehicle[playerid][P_MODELID] != -1)
+        {
+            Iter_Free(pVehicle[playerid]);
+            
+            DestroyVehicle(vehicleid);
+            SpawnedPlayerVehicle[playerid][P_ID] = INVALID_VEHICLE_ID;
+            SpawnedPlayerVehicle[playerid][P_MODELID] = -1;
+            SpawnedPlayerVehicle[playerid][P_ISDEAD] = false;
+        }
+    }
 }

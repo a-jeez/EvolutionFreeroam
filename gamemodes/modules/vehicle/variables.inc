@@ -19,10 +19,3 @@ new VehicleModelNames[][32] = {
     "Police (LV)", "Ranger", "Picador", "S.W.A.T.", "Alpha", "Phoenix", "Glendale (Damaged)", "Sadler (Damaged)", "Baggage Box A",
     "Baggage Box B", "Tug Stairs", "Boxville", "Farm Trailer", "Utility Trailer", "Not Found"
 };
-
-enum vehicleData
-{
-    P_ID,
-    P_MODELID
-};
-new SpawnedPlayerVehicle[MAX_PLAYERS][vehicleData];

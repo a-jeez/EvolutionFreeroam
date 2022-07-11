@@ -15,19 +15,21 @@ CMD:veh(playerid, params[])
 	GetPlayerFacingAngle(playerid, PlayerAngle);
 
 	if(SpawnedPlayerVehicle[playerid][P_ID] != INVALID_VEHICLE_ID) {
+		Iter_Remove(pVehicle[playerid], SpawnedPlayerVehicle[playerid][P_ID]);
 		DestroyVehicle(SpawnedPlayerVehicle[playerid][P_ID]);
-		
+
 		SpawnedPlayerVehicle[playerid][P_MODELID] = -1;
 		SpawnedPlayerVehicle[playerid][P_ID] = INVALID_VEHICLE_ID;
 	}
 
 	new vehicleid = CreateVehicle(modelid, PlayerPos[0], PlayerPos[1], PlayerPos[2], PlayerAngle, col[0], col[1], 50000);
+	Iter_Add(pVehicle[playerid], vehicleid);
 
 	SpawnedPlayerVehicle[playerid][P_ID] = vehicleid;
 	SpawnedPlayerVehicle[playerid][P_MODELID] = modelid;
 	PutPlayerInVehicle(playerid, vehicleid, 0);
 
-	return SendClientMessageEx(playerid, -1, ORANGERED1"[SERVER]: "WHITE"You has spawned vehicle "ORANGERED1"%s", GetVehicleNameFromModelID(modelid));
+	return SendClientMessageEx(playerid, -1, INDIANRED1"[SERVER]: "WHITE"You has spawned vehicle "INDIANRED1"%s", GetVehicleNameFromModelID(modelid));
 }
 
 CMD:delveh(playerid)
@@ -39,8 +41,9 @@ CMD:delveh(playerid)
 		return Error(playerid, "You're not have a spawned vehicles");
 
 	RemovePlayerFromVehicle(playerid);
+	Iter_Remove(pVehicle[playerid], SpawnedPlayerVehicle[playerid][P_ID]);
 	DestroyVehicle(SpawnedPlayerVehicle[playerid][P_ID]);
-	SendClientMessageEx(playerid, -1, ORANGERED1"[SERVER]: "WHITE"Your %s has been destroyed", GetVehicleNameFromModelID(SpawnedPlayerVehicle[playerid][P_MODELID]));
+	SendClientMessageEx(playerid, -1, INDIANRED1"[SERVER]: "WHITE"Your %s has been destroyed", GetVehicleNameFromModelID(SpawnedPlayerVehicle[playerid][P_MODELID]));
 
 	SpawnedPlayerVehicle[playerid][P_MODELID] = -1;
 	SpawnedPlayerVehicle[playerid][P_ID] = INVALID_VEHICLE_ID;
