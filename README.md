@@ -17,7 +17,7 @@ Evolution Freeroam v1.4.2 Revolutioner!
 
 - Added CMD /fixveh /afix
 
--Fixed some CMD
+- Fixed some CMD
 
 - Added SetGameModeText in modules/server/callbacks.inc
 
