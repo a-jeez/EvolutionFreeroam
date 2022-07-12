@@ -110,6 +110,41 @@ CMD:jumpmode(playerid,params[])
 }
 CMD:help(playerid)
 {
-	// Gaada si andy mau nambahin katanya :v
+	SendClientMessage(playerid, X11_LIGHTBLUE, "SERVER: "WHITE"/godmode /jumpmode /delveh /veh");
+	SendClientMessage(playerid, X11_LIGHTBLUE, "SERVER: "WHITE"/stats /help /fixveh /goto /givewep");
+	SendClientMessage(playerid, X11_LIGHTBLUE, "SERVER: "WHITE"/gethere /setskin /jetpack");
+	SendClientMessage(playerid, X11_LIGHTBLUE, "SERVER: "WHITE"/setcarhp /respawnall");
+	return true;
+}
+CMD:stats(playerid, params[])
+{
+	SendClientMessageEx(playerid, X11_LIGHTBLUE, "SERVER: "WHITE"Name: "YELLOW"%s", ReturnPlayerName(playerid));
+	SendClientMessageEx(playerid, X11_LIGHTBLUE, "SERVER: "WHITE"Your SQL ID: "YELLOW"%d", PlayerData[playerid][P_SQLID]);
+	return true;
+}
+CMD:id(playerid, params[])
+{
+	static
+	userid;
+	if (isnull(params))
+	    return SendClientMessage(playerid, -1, "/id [playerid/name]");
+
+	if (strlen(params) < 3)
+		return Error(playerid, "You must specify at least 3 characters.");
+
+	new count;
+
+	foreach (new i : Player)
+	{
+	    if (strfind(ReturnPlayerName(i), params, true) != -1)
+	    {
+	       // SendClientMessageEx(playerid, COLOR_WHITE, "** %s - ID: %d", ReturnName(i), i);
+			SendClientMessageEx(playerid, X11_LIGHTBLUE, "SERVER: "WHITE"Name: %s, ID: %d, Client: %s", ReturnPlayerName(userid), userid, GetPlayerVersion(i));
+	        count++;
+		}
+	}
+	if (!count)
+	    return SendClientMessageEx(playerid, -1, RED"No users matched the search criteria: \"%s\".", params);
+
 	return true;
 }

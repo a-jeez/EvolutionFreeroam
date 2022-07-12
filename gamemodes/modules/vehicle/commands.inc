@@ -67,3 +67,34 @@ CMD:fixveh(playerid)
 	SendClientMessageEx(playerid, -1, INDIANRED1"SERVER: "WHITE"Your vehicle "YELLOW"%s"WHITE" has been repaired", GetVehicleNameFromModelID(SpawnedPlayerVehicle[playerid][P_MODELID]));
 	return 1;
 }
+CMD:setcarhp(playerid, params[])
+{
+	static
+	    id = 0,
+		Float:amount;
+
+	if (sscanf(params, "df", id, amount))
+ 	{
+	 	if (IsPlayerInAnyVehicle(playerid))
+		{
+		    id = GetPlayerVehicleID(playerid);
+
+		    if (sscanf(params, "f", amount))
+		        return SendClientMessage(playerid, -1, INDIANRED1"USAGE: "WHITE"/setcarhp [amount]");
+
+			if (amount < 0.0)
+			    return Error(playerid, "The amount can't be below 0.");
+
+			SetVehicleHealth(id, amount);
+			SendClientMessageEx(playerid, -1, "You have set the health of vehicle ID: %d to %.1f.", id, amount);
+			return 1;
+		}
+		else return SendClientMessage(playerid, -1, INDIANRED1"USAGE: "WHITE"/setcarhp [vehicle id] [amount]");
+	}
+	if (amount < 0.0)
+	    return Error(playerid, "The amount can't be below 0.");
+
+	SetVehicleHealth(id, amount);
+	SendClientMessageEx(playerid, -1, "You have set the health of vehicle ID: %d to %.1f.", id, amount);
+	return 1;
+}

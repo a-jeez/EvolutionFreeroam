@@ -1,6 +1,6 @@
 public OnGameModeInit()
 {
-    SetGameModeText("EVO:FR v1.4.2 Revolution!");
+    SetGameModeText("EVO:FR v1.4.3 Revolution!");
     MySQL_Connect();
     return 1;
 }
