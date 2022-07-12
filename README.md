@@ -10,6 +10,10 @@ Thanks to:
           
           - Kristoforus Ananta P.M (Beban Dev)
           
+Evolution Freeroam v1.4.3 Revolution!
+
+- Added CMD /stats /id /jetpack /help and /setcarhp
+
 
 Evolution Freeroam v1.4.2 Revolutioner!
 
