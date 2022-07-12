@@ -12,9 +12,15 @@ Thanks to:
           
 
 Evolution Freeroam v1.4.2 Revolutioner!
-Added CMD /givewep /giveweap /weap /giveweapon
-Added CMD /fixveh /afix
-Fixed some CMD
-Added SetGameModeText in modules/server/callbacks.inc
-Added /jumpmode /godmode (Maybe this command will not work because this commands not 100% finished)
-Added message while handshaking with server(OnPlayerConnect)
+
+- Added CMD /givewep /giveweap /weap /giveweapon
+
+- Added CMD /fixveh /afix
+
+-Fixed some CMD
+
+- Added SetGameModeText in modules/server/callbacks.inc
+
+- Added /jumpmode /godmode (Maybe this command will not work because this commands not 100% finished)
+
+- Added message while handshaking with server(OnPlayerConnect)
