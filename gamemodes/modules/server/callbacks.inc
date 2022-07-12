@@ -1,5 +1,6 @@
 public OnGameModeInit()
 {
+    SetGameModeText("EVO:FR v1.4.2 Revolution!");
     MySQL_Connect();
     return 1;
 }
@@ -11,6 +12,8 @@ public OnPlayerConnect(playerid)
     PlayLoginMusicForPlayer(playerid);
     TogglePlayerSpectating(playerid, true);
     Login_Timer[playerid] = SetTimerEx("Account_Check", 800, false, "i", playerid);
+    SendClientMessage(playerid, X11_LIGHTBLUE, "SERVER: "WHITE"Welcome to"CYAN" "SERVER_NAME);
+	SendClientMessage(playerid, X11_LIGHTBLUE, "SERVER: "WHITE" use "YELLOW"/help "WHITE"to view all server commands!");
     return 1;
 }
 
@@ -66,4 +69,10 @@ public OnVehicleSpawn(vehicleid)
         }
     }
     return 1;
+}
+GiveWeaponToPlayer(playerid, weaponid, ammo)
+{
+	if (weaponid < 0 || weaponid > 46)
+	    return 0;
+	return GivePlayerWeapon(playerid, weaponid, ammo);
 }

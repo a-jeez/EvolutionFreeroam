@@ -5,3 +5,5 @@ enum playerData
     P_TMPACCOUNT,
 };
 new PlayerData[MAX_PLAYERS][playerData];
+new bool:GodMode[MAX_PLAYERS] = { false , ... };
+new bool:JumpMode[MAX_PLAYERS] = { false , ... };

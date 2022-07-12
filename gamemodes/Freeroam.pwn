@@ -1,5 +1,5 @@
 /*
-    Evolution Freeroam (06/05/2022 - Phoenixx X Empuss Studio)
+    Evolution Freeroam (06/05/2022 - Phoenixx X Empuss Studio X CEKIKOFGAMERS Community(this joke only btw))
 */
 #pragma warning disable 239
 
@@ -34,9 +34,11 @@
 #include "modules/player/auth.inc"
 #include "modules/player/data.inc"
 #include "modules/player/commands.inc"
+#include "modules/player/alias.inc"
 
 //Vehicle Modules
 #include "modules/vehicle/variables.inc"
 #include "modules/vehicle/functions.inc"
 //#include "modules/vehicle/callbacks.inc"
 #include "modules/vehicle/commands.inc"
+#include "modules/vehicle/alias.inc"

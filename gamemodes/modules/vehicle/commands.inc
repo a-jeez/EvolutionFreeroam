@@ -35,7 +35,7 @@ CMD:veh(playerid, params[])
 CMD:delveh(playerid)
 {
 	if(!IsPLayerLoggedIn[playerid])
-		return Error(playerid, "You must be spawned to use this");
+		return Error(playerid, "You must be spawned to use this commands");
 
 	if(!Iter_Contains(pVehicle[playerid], SpawnedPlayerVehicle[playerid][P_ID]) &&
 		SpawnedPlayerVehicle[playerid][P_ID] == INVALID_VEHICLE_ID)
@@ -53,5 +53,17 @@ CMD:delveh(playerid)
 
 CMD:respawnall(playerid)
 {
+	Error(playerid, "This command is currently in development");
+	return 1;
+}
+CMD:fixveh(playerid)
+{
+	if(!IsPLayerLoggedIn[playerid])
+		return Error(playerid, "You must be spawned to use this commands");
+	if(!IsPlayerInAnyVehicle(playerid)) return SendClientMessage(playerid, -1, INDIANRED1"SERVER: "WHITE"You not in any vehicle!");
+ 
+	RepairVehicle(GetPlayerVehicleID(playerid));
+ 
+	SendClientMessageEx(playerid, -1, INDIANRED1"SERVER: "WHITE"Your vehicle "YELLOW"%s"WHITE" has been repaired", GetVehicleNameFromModelID(SpawnedPlayerVehicle[playerid][P_MODELID]));
 	return 1;
 }

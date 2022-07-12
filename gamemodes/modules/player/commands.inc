@@ -72,3 +72,44 @@ CMD:setskin(playerid, params[])
 	SendClientMessageEx(toPlayer, -1, "Your skin has been set to "INDIANRED1"%d"WHITE" by "INDIANRED1"%s", skinid, Player_GetName(playerid));
 	return 1;
 }
+CMD:weap(playerid,params[])
+{
+    new weapon;
+    if(sscanf(params,"k<weapon>",weapon)) return SendClientMessage(playerid, -1, INDIANRED1"USAGE: "WHITE"/weap [weapon name/id]");
+    if(weapon == -1 || weapon == 44 || weapon == 45) return Error(playerid,"Invalid weapon!");
+    GivePlayerWeapon(playerid,weapon,20000);
+	return 1;
+}
+CMD:jetpack(playerid,params[])
+{
+	SetPlayerSpecialAction(playerid,SPECIAL_ACTION_USEJETPACK);
+	return 1;
+}
+CMD:godmode(playerid,params[])
+{
+	GodMode[playerid] = !(GodMode[playerid]);
+	if(GodMode[playerid]) SendClientMessage(playerid,X11_LIGHTBLUE,"GODMODE: "WHITE"Godmode "GREEN"enabled");
+	else
+	{
+		SetPlayerHealth(playerid,100.0);
+		SendClientMessage(playerid,X11_LIGHTBLUE,"GODMODE: "WHITE"Godmode "RED"disabled");
+	}
+	return 1;
+}
+CMD:jumpmode(playerid,params[])
+{
+	JumpMode[playerid] = !(JumpMode[playerid]);
+	if(JumpMode[playerid])
+	{
+		SendClientMessage(playerid,X11_LIGHTBLUE,"SERVER: "WHITE"Jump mode "GREEN"enabled!");
+		SendClientMessage(playerid,X11_LIGHTBLUE,"HINT: "WHITE"Press "YELLOW"~k~~PED_JUMPING~ "WHITE"while on foot to jump higher!");
+		SendClientMessage(playerid,X11_LIGHTBLUE,"HINT: "WHITE"Press "YELLOW"~k~~VEHICLE_HORN~  "WHITE"while driving to jump vehicle!");
+	}
+	else SendClientMessage(playerid,X11_LIGHTBLUE,"SERVER: "WHITE"Jump mode "RED"disabled!");
+	return 1;
+}
+CMD:help(playerid)
+{
+	// Gaada si andy mau nambahin katanya :v
+	return true;
+}
