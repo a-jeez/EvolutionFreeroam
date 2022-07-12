@@ -7,7 +7,7 @@ Dialog:PlayerRegister(playerid, response, listitem, inputtext[])
             static
                 string[512];
     
-            format(string, sizeof(string), ""WHITE"Hi "INDIANRED1"%s"WHITE", it appears to be your first time around, welcome!\nPlease type in a password for your account below: "INDIANRED1"(input below)\n\n"INDIANRED1"NOTE: You can play with guest account!", Player_GetName(playerid));
+            format(string, sizeof(string), ""WHITE"Hi "CYAN"%s"WHITE", it appears to be your first time around, welcome!\nPlease type in a password for your account below: "GREEN"(input below)\n\n"GREEN"NOTE: You can play with guest account!", Player_GetName(playerid));
             Dialog_Show(playerid, PlayerRegister, DIALOG_STYLE_INPUT, ""SERVER_NAME" Freeroam: Register", string, "Register", "Guest");
 
             Error(playerid, "Invalid password, password can't be below than 5 or more than 24 word!");
@@ -22,7 +22,7 @@ Dialog:PlayerRegister(playerid, response, listitem, inputtext[])
 
         format(player_name, sizeof(player_name), "%s_tmp%d", Player_GetName(playerid), Random(1, 999));
         SetPlayerName(playerid, player_name);
-        SendClientMessage(playerid, X11_LIGHTBLUE, "SERVER: "WHITE"You have chosen to use a guest account.");
+        Server(playerid, "SERVER: "WHITE"You have chosen to use a guest account.");
     }
     return 1;
 }
@@ -36,7 +36,7 @@ Dialog:PlayerLogin(playerid, response, listitem, inputtext[])
             static
                 string[512];
                 
-            format(string, sizeof(string), ""WHITE"Hi "INDIANRED1"%s"WHITE", it seems you're already registered, please type in your password: "INDIANRED1"(input below)", Player_GetName(playerid));
+            format(string, sizeof(string), ""WHITE"Hi "CYAN"%s"WHITE", it seems you're already registered, please type in your password: "GREEN"(input below)", Player_GetName(playerid));
             Dialog_Show(playerid, PlayerLogin, DIALOG_STYLE_PASSWORD, ""SERVER_NAME" Freeroam: Login", string, "Login", "Forgot Password");
 
             Error(playerid, "Invalid password inputted!");

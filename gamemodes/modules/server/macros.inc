@@ -17,6 +17,6 @@
 #define DEFAULT_POS_A   270.1425
 
 //Messages
-#define Error(%1,%2) SendClientMessage(%1, -1, INDIANRED1"[ERROR]:"WHITE" "%2)
-#define Server(%1,%2) SendClientMessage(%1, -1, INDIANRED1"[SERVER]:"WHITE" "%2)
-#define Usage(%1,%2) SendClientMessage(%1, -1, INDIANRED1"[USAGE]:"WHITE" "%2)
+#define Error(%1,%2) SendClientMessage(%1, -1, INDIANRED1"ERROR:"WHITE" "%2)
+#define Server(%1,%2) SendClientMessage(%1, -1, INDIANRED1"SERVER:"WHITE" "%2)
+#define Usage(%1,%2) SendClientMessage(%1, -1, INDIANRED1"USAGE:"WHITE" "%2)

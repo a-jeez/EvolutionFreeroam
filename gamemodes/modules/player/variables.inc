@@ -1,7 +1,7 @@
 enum playerData
 {
     P_SQLID,
-    P_NAME[24],
-    P_TMPACCOUNT
+    P_NAME[MAX_PLAYER_NAME],
+    P_TMPACCOUNT,
 };
 new PlayerData[MAX_PLAYERS][playerData];

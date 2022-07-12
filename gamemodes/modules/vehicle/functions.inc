@@ -6,8 +6,10 @@ function SetPlayerVehicleDeathState(playerid, vehicleid, dstate)
         if(SpawnedPlayerVehicle[playerid][P_MODELID] != -1)
         {
             SpawnedPlayerVehicle[playerid][P_ISDEAD] = dstate;
+            return 1;
         }
     }
+    return 0;
 }
 
 function GetPlayerVehicleDeathState(playerid, vehicleid)
@@ -47,6 +49,8 @@ function RemovePlayerVehicle(playerid, vehicleid)
             SpawnedPlayerVehicle[playerid][P_ID] = INVALID_VEHICLE_ID;
             SpawnedPlayerVehicle[playerid][P_MODELID] = -1;
             SpawnedPlayerVehicle[playerid][P_ISDEAD] = false;
+            return 1;
         }
     }
+    return 0;
 }

@@ -59,8 +59,8 @@ CMD:setskin(playerid, params[])
 	if(sscanf(params, "ud", toPlayer, skinid)) 
 		return Usage(playerid, "/setskin [PlayerID/Part of Name] [SkinID]");
 
-	if(skinid < 1 && skinid > 311)
-		return Error(playerid, "Skin ID must be invalid (1 - 311)");
+	if(!IsValidModel(skinid) && skinid == 0)
+		return Error(playerid, "Skin ID must be valid (1 - 311)");
 
 	if(!Iter_Contains(Player, toPlayer))
 		return Error(playerid, "Player is not connected");

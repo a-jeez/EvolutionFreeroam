@@ -5,3 +5,8 @@ function OnAccountLoaded(playerid)
     TogglePlayerSpectating(playerid, false);
     return 1;
 }
+
+function GetPlayerData(playerid, playerData:data)
+{
+    return PlayerData[playerid][data];
+}

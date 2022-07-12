@@ -44,7 +44,7 @@ function OnAccountPasswordHashed(playerid)
 
     SendClientMessage(playerid, X11_LIGHTBLUE, "SERVER: "WHITE"Your account has been registered!");
     
-    format(string, sizeof(string), ""WHITE"Hi "ORANGERED1"%s"WHITE", it seems you're already registered, please type in your password: "ORANGERED1"(input below)", Player_GetName(playerid));
+    format(string, sizeof(string), ""WHITE"Hi "CYAN"%s"WHITE", it seems you're already registered, please type in your password: "GREEN"(input below)", Player_GetName(playerid));
     Dialog_Show(playerid, PlayerLogin, DIALOG_STYLE_PASSWORD, ""SERVER_NAME" Freeroam: Login", string, "Login", "Forgot Password");
     return 1;
 }
@@ -56,7 +56,7 @@ function OnAccountPasswordChecked(playerid, bool:success)
         static
             string[256];
             
-        format(string, sizeof(string), ""WHITE"Hi "ORANGERED1"%s"WHITE", it seems you're already registered, please type in your password: "ORANGERED1"(input below)", Player_GetName(playerid));
+        format(string, sizeof(string), ""WHITE"Hi "CYAN"%s"WHITE", it seems you're already registered, please type in your password: "GREEN"(input below)", Player_GetName(playerid));
         Dialog_Show(playerid, PlayerLogin, DIALOG_STYLE_PASSWORD, ""SERVER_NAME" Freeroam: Login", string, "Login", "Forgot Password");
 
         Error(playerid, "Invalid password!, please try again.");
