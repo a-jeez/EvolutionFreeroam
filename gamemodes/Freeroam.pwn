@@ -42,3 +42,4 @@
 //#include "modules/vehicle/callbacks.inc"
 #include "modules/vehicle/commands.inc"
 #include "modules/vehicle/alias.inc"
+//#include "modules/vehicle/dialog.inc"

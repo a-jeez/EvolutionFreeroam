@@ -1,5 +1,5 @@
 //Server Macros
-#define SERVER_NAME "Punix"
+#define SERVER_NAME "Evolution Freeroam"
 #define SERVER_VERSION _date
 
 //MySQL Macros

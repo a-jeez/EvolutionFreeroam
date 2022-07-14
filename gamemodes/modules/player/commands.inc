@@ -55,21 +55,15 @@ CMD:setskin(playerid, params[])
 	if(!IsPLayerLoggedIn[playerid])
 		return Error(playerid, "You must be spawned to use this");
 
-	new toPlayer, skinid;
-	if(sscanf(params, "ud", toPlayer, skinid)) 
-		return Usage(playerid, "/setskin [PlayerID/Part of Name] [SkinID]");
+	new otherid, skinid;
+	if(sscanf(params, "ud", otherid, skinid)) 
+		return Usage(playerid, "/setskin [playerid/part of name][SkinID]");
 
 	if(!IsValidModel(skinid) && skinid == 0)
 		return Error(playerid, "Skin ID must be valid (1 - 311)");
 
-	if(!Iter_Contains(Player, toPlayer))
-		return Error(playerid, "Player is not connected");
-
-	if(!IsPLayerLoggedIn[toPlayer])
-		return Error(playerid, "Player is not Logged in");
-
-	SetPlayerSkin(toPlayer, skinid);
-	SendClientMessageEx(toPlayer, -1, "Your skin has been set to "INDIANRED1"%d"WHITE" by "INDIANRED1"%s", skinid, Player_GetName(playerid));
+	SetPlayerSkin(otherid, skinid);
+	SendClientMessageEx(playerid, -1, "Your skin has been set to "INDIANRED1"%d", skinid);
 	return 1;
 }
 CMD:weap(playerid,params[])
@@ -147,4 +141,19 @@ CMD:id(playerid, params[])
 	    return SendClientMessageEx(playerid, -1, RED"No users matched the search criteria: \"%s\".", params);
 
 	return true;
+}
+CMD:restart(playerid, params[])
+{
+	#pragma unused params
+	if(!IsPlayerAdmin(playerid))
+		return Error(playerid, "You not admin! (Not logged in to rcon)");
+	else
+	{
+		SendClientMessageToAllEx(-1, INDIANRED1"SERVER: Admin %s has initiate server restart", GetPlayerName(playerid));
+		SetTimer("gmx", 15000, false);
+		SendRconCommand("hostname E:FR | Restarting");
+		SendRconCommand("password abclimadasar");
+		return 1;
+	}
+	return 1;
 }
