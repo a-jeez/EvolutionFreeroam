@@ -10,6 +10,14 @@ Thanks to:
           
           - Kristoforus Ananta P.M (Beban Dev)
           
+Evolution Freeroam v1.4.4 Revolution!
+
+- Fixed /setskin
+
+- Added CMD restart for rcon mode only
+
+- Fixed some Commands and callback
+          
 Evolution Freeroam v1.4.3 Revolution!
 
 - Added CMD /stats /id /jetpack /help and /setcarhp
