@@ -8,7 +8,7 @@ Thanks to:
           
           - Andy Prasetya (Second Dev)
           
-          - Kristoforus Ananta P.M (Beban Dev)
+          - Kristoforus Ananta P.M (3rd Dev)
           
 Evolution Freeroam v1.4.4 Revolution!
 
