@@ -1,15 +1,16 @@
-# EvolutionFreeroam
+# Evolution Freeroam
+*DISCONTINUED (Evolution RP is Work In Progress)*
 
 Evolution Freeroam is an mode developed by Phoenixx Komuniti & Empuss-Studio (at Surga Team), This gamemode has contributed by 3 people.
 
-Thanks to:
+# Thanks to:
+- Phoenixx - Muhammad Abdul Aziz (Main Dev)
+- Andy Prasetya (Second Dev)
+- Kristoforus Ananta P.M (3rd Dev)
 
-          - Phoenixx - Muhammad Abdul Aziz (Main Dev)
-          
-          - Andy Prasetya (Second Dev)
-          
-          - Kristoforus Ananta P.M (3rd Dev)
-          
+
+# Changelogs:
+  
 Evolution Freeroam v1.4.4 Revolution!
 
 - Fixed /setskin
