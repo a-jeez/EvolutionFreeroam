@@ -4,7 +4,7 @@ Evolution Freeroam is an mode developed by Phoenixx Komuniti & Empuss-Studio (at
 
 Thanks to:
 
-          - Phoenixx (Main Dev)
+          - Phoenixx - Muhammad Abdul Aziz (Main Dev)
           
           - Andy Prasetya (Second Dev)
           
